@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+
+margin: 0;
+}
+
+
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background-color: #3498db;
+            padding: 10px 0;
+        }
+
+       
+        .container-fluid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            color: #fff;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        form {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #input{
+            padding: 0.70rem ;
+        }
+
+        .form-control {
+            width: 80%;
+            max-width: 300px;
+            margin-right: 10px;
+        }
+
+        .btn {
+            background-color: #fff;
+            color: #3498db;
+        }
+        .card-body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+        }
+
+        .card-row2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 3rem;
+        }
+
+      .Weather-box{
+        display: none;
+      }
+
+
+        @media (max-width: 768px) {
+            .container-fluid {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            form {
+                margin-top: 10px;
+            }
+
+            .form-control {
+                margin-right: 0;
+               margin-bottom: 10px;
+            }
+        }
+
+
+
+
+
+
+/* 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+#search{
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+
+}
+
+#weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.location {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.description {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 20px 0;
+} */
